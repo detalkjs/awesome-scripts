@@ -16,3 +16,12 @@ The scripts are based on [Custom Event](https://detalk.js.org/server/custom-even
 | :----------------: | :-------------: | :----------------------------------------------------------------------------------------------------------------: | :------------------------: |
 | 关键词垃圾信息过滤 | `beforeComment` |  [`beforeComment/spam-word.js`](https://github.com/detalkjs/awesome-scripts/blob/main/beforeComment/spam-word.js)  |   匹配关键词垃圾信息过滤   |
 |      飞书推送      | `afterComment`  | [`afterComment/feishu-push.js`](https://github.com/detalkjs/awesome-scripts/blob/main/afterComment/feishu-push.js) | 评论完成后使用飞书推送通知 |
+
+
+## 提交贡献
+
+我们欢迎任何人对此仓库提交贡献，添加有用的脚本。
+
+1. Fork 此仓库，在 `afterComment` 或 `beforeComment` 文件夹中添加你的脚本。
+2. 在 README.md 的 Scripts List 中，以 Markdown 表格形式追加脚本的名称、方法和简介。
+3. 提交 Pull Request，等待合并仓库。
