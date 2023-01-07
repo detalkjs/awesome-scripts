@@ -16,6 +16,7 @@ The scripts are based on [Custom Event](https://detalk.js.org/server/custom-even
 | :----------------: | :-------------: | :----------------------------------------------------------------------------------------------------------------: | :------------------------: |
 | 关键词垃圾信息过滤 | `beforeComment` |  [`beforeComment/spam-word.js`](https://github.com/detalkjs/awesome-scripts/blob/main/beforeComment/spam-word.js)  |   匹配关键词垃圾信息过滤   |
 |      飞书推送      | `afterComment`  | [`afterComment/feishu-push.js`](https://github.com/detalkjs/awesome-scripts/blob/main/afterComment/feishu-push.js) | 评论完成后使用飞书推送通知 |
+| Nodemailer(SMTP) 推送      | `afterComment`  | [`afterComment/nodemailer.js`](https://github.com/detalkjs/awesome-scripts/blob/main/afterComment/nodemailer.js) | 评论完成后使用 SMTP 推送邮件回复通知 |
 
 ## 提交贡献
 
