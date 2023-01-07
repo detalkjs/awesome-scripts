@@ -57,7 +57,7 @@ function dayjs(timestamp) {
     subject: `[${sitename}] 您的评论收到新回复`,
     html: `<p>您在 ${sitename} 上的评论收到新回复。</p><hr/><p>评论者 <a href="${
       $data.url
-    }">@${$data.nickname}</a> 于 ${dayjs(
+    }">@${$data.nickname}</a> 于 UTC-${dayjs(
       $data.timestamp
     )} 在回复中评论：</p><div>${
       $data.content
